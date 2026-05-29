@@ -2,6 +2,7 @@
 
 int main() {
 int x,y,z,a,b,c;
+float p,q,r;
 printf("===============================\n");
 printf("||        Mathematics        ||\n");
 printf("===============================\n\n");
@@ -325,10 +326,14 @@ printf("||     Division     ||\n");
 printf("======================\n\n");
 printf("\nDivision of two numbers\n");
 printf("\nEnter Dividend number-->");
-scanf("%d",&x);
+scanf("%f",&q);
 printf("\nEnter Divisor number-->");
-scanf("%d",&y);
-printf("\nThe multiplication of %d/%d is--> %d",x,y,x/y);
+scanf("%f",&r);
+if(r == 0){
+    printf("\nDivision by zero is not allowed");
+    return 0;
+}
+printf("\nThe Division of %.2f/%.2f is--> %.2f",q,r,q/r);
    break;
    
    case 5:
@@ -339,10 +344,10 @@ printf("\nEnter number to find even or odd-->");
 if(scanf("%d",&x)!=1){
     printf("Enter number only");
 }else{
-if(x!=2){
-    printf("\n%d is odd");
+if(x%2==0){
+    printf("\n%d is even",x);
 }else{
-    printf("\n%d is even");
+    printf("\n%d is odd",x);
 }
 }
    break;
