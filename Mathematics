@@ -1,0 +1,351 @@
+#include <stdio.h>
+
+int main() {
+int x,y,z,a,b,c;
+printf("===============================\n");
+printf("||        Mathematics        ||\n");
+printf("===============================\n\n");
+printf("1.Addition\n");
+printf("2.Subtraction\n");
+printf("3.Multiplication\n");
+printf("4.Division\n");
+printf("5.Find even or odd\n");
+    printf("\nEnter the number-->");
+    scanf("%d",&x);
+    if(x>5||x<1){
+        printf("Please pick a number between 1-5 only");
+        return 0;
+    }
+    
+    switch(x){
+        case 1:
+printf("\n======================\n");
+printf("||     Addition     ||\n");
+printf("======================\n\n");
+printf("Pick how many number want to add 2-5\n");
+printf("Enter value-->");
+scanf("%d",&x);
+ switch(x){
+    case 2:
+        printf("\nAddition of two numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe addition of %d+%d is--> %d",x,y,x+y);
+   break;
+   case 3:
+        printf("\nAddition of three numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe addition of %d+%d+%d is--> %d",x,y,z,x+y+z);
+   break;
+    case 4:
+        printf("\nAddition of four numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe addition of %d+%d+%d+%d is--> %d",x,y,z,a,x+y+z+a);
+   break;
+    case 5:
+        printf("\nAddition of five numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fifth number-->");
+        if(scanf("%d",&b)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe addition of %d+%d+%d+%d+%d is--> %d",x,y,z,a,b,x+y+z+a+b);
+   break;
+   default:
+        printf("Please pick a number between 2-5 only");
+   break;
+    }
+    break;
+    
+    
+    case 2:
+printf("\n=========================\n");
+printf("||     Subtraction     ||\n");
+printf("=========================\n\n");
+printf("Pick how many number want to subtract 2-5\n");
+printf("Enter value-->");
+scanf("%d",&x);
+ switch(x){
+    case 2:
+        printf("\nSubtraction of two numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe subtraction of %d-%d is--> %d",x,y,x-y);
+   break;
+   case 3:
+        printf("\nSubtraction of three numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe subtraction of %d-%d-%d is--> %d",x,y,z,x-y-z);
+   break;
+    case 4:
+        printf("\nSubtraction of four numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe subtraction of %d-%d-%d-%d is--> %d",x,y,z,a,x-y-z-a);
+   break;
+    case 5:
+        printf("\nSubtraction of five numbers\n");
+                printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fifth number-->");
+        if(scanf("%d",&b)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe subtraction of %d-%d-%d-%d-%d is--> %d",x,y,z,a,b,x-y-z-a-b);
+   break;
+    default:
+        printf("Please pick a number between 2-5 only");
+   break;
+    }
+    break;
+    
+        case 3:
+printf("\n============================\n");
+printf("||     Multiplication     ||\n");
+printf("============================\n\n");
+printf("Pick how many number want to multiply 2-5\n");
+printf("Enter value-->");
+scanf("%d",&x);
+ switch(x){
+    case 2:
+        printf("\nMultiplication of two numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe multiplication of %d*%d is--> %d",x,y,x*y);
+   break;
+   case 3:
+        printf("\nMultiplication of three numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe multiplication of %d*%d*%d is--> %d",x,y,z,x*y*z);
+   break;
+    case 4:
+        printf("\nMultiplication of four numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe multiplication of %d*%d*%d*%d is--> %d",x,y,z,a,x*y*z*a);
+   break;
+    case 5:
+        printf("\nMultiplication of five numbers\n");
+        printf("\nEnter first number-->");
+        if(scanf("%d",&x)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter second number-->");
+        if(scanf("%d",&y)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter third number-->");
+        if(scanf("%d",&z)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fourth number-->");
+        if(scanf("%d",&a)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nEnter fifth number-->");
+        if(scanf("%d",&b)!=1){
+            printf("Enter numbers only!");
+            return 0;
+        }
+        printf("\nThe multiplication of %d*%d*%d*%d*%d is--> %d",x,y,z,a,b,x*y*z*a*b);
+   break;
+    default:
+        printf("Please pick a number between 2-5 only");
+   break;
+    }
+    break;
+    
+    case 4:
+printf("\n======================\n");
+printf("||     Division     ||\n");
+printf("======================\n\n");
+printf("\nDivision of two numbers\n");
+printf("\nEnter Dividend number-->");
+scanf("%d",&x);
+printf("\nEnter Divisor number-->");
+scanf("%d",&y);
+printf("\nThe multiplication of %d/%d is--> %d",x,y,x/y);
+   break;
+   
+   case 5:
+printf("\n=========================\n");
+printf("||     Even or odd     ||\n");
+printf("=========================\n\n");
+printf("\nEnter number to find even or odd-->");
+if(scanf("%d",&x)!=1){
+    printf("Enter number only");
+}else{
+if(x!=2){
+    printf("\n%d is odd");
+}else{
+    printf("\n%d is even");
+}
+}
+   break;
+}
+    return 0;
+}
